@@ -13,8 +13,8 @@
 
 http://feddit.deggymacets.com {
         import caddy-common
-        reverse_proxy   https://lemmy-ui {
-            header_up Host {upstream_hostport}
+        reverse_proxy   http://lemmy-ui {
+            #header_up Host {upstream_hostport}
         }
         log
 
