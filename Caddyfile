@@ -11,7 +11,7 @@
     }
 }
 
-https://feddit.deggymacets.uk {
+http://feddit.deggymacets.uk {
         import caddy-common
         reverse_proxy   http://lemmy-ui {
             #header_up Host {upstream_hostport}
